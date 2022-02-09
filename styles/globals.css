@@ -5,3 +5,10 @@
 button {
   @apply font-bold border-2 text-center px-4 py-2;
 }
+
+.todo {
+  cursor: pointer;
+}
+.strike {
+  text-decoration: line-through;
+}
