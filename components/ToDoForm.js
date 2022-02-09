@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './Button.module.css';
+import styles from './ToDoForm.module.css';
 
 const ToDoForm = ({ addTask }) => {
   const [userInput, setUserInput] = useState('');
@@ -22,7 +22,7 @@ const ToDoForm = ({ addTask }) => {
         className="border-2 px-4 py-2"
         placeholder="Enter task..."
       />
-      <button className="font-bold border-2 text-center px-4 py-2">Add</button>
+      <button className={styles.button}>Add</button>
     </form>
   );
 };
